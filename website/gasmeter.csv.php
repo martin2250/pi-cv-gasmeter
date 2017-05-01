@@ -42,7 +42,7 @@ $monthe = intval($monthe);
 $yeare = intval($yeare);
 
 
-header('Content-Disposition: attachment; filename="Zaehlestand-' . $months . '.' . $years - '-' . $monthe . '.' . $yeare . '.csv"');
+header('Content-Disposition: attachment; filename="Zaehlestand-' . $months . '.' . $years . '-' . $monthe . '.' . $yeare . '.csv"');
 
 $servername = "localhost";
 $username = "";
